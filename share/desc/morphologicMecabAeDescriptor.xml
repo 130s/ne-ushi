@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+<primitive>true</primitive>
+<annotatorImplementationName>net.lateeye.uima.nlp.MorphAnalysisMeCabAnnotator</annotatorImplementationName>
+<analysisEngineMetaData>
+<name>Morphologic analysis using MeCab Descriptor</name>
+<description>A description about usage of
+MorphologicAnalysisMecabAnnotator.java is here. In order to let it work, you should set 2 parameter values on "Parameter Settings" tab.</description>
+<version>0.2</version>
+<vendor>Lateeye productions.</vendor>
+<configurationParameters defaultGroup="default1" searchStrategy="language_fallback">
+<configurationParameter>
+<name>LIB_NAME</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>DELIM_SPEECHTYPE</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationGroup names="SpeechType">
+<configurationParameter>
+<name>SPEECHTYPE_ADJECTIVE</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_ADVERB</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_AUXILIARY_VERB</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_CONJUGATION</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_NOUN</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_SYMBOL</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_PARTICLE</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_TRUE_ADJECTIVE</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_UNKNOWNWORD</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_VERB</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_PREFIX</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_FILLER</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>SPEECHTYPE_INTERJECTION</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>true</mandatory>
+</configurationParameter>
+</configurationGroup>
+</configurationParameters>
+<configurationParameterSettings>
+<nameValuePair>
+<name>LIB_NAME</name>
+<value>
+<string>MeCab</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>DELIM_SPEECHTYPE</name>
+<value>
+<string>,</string>
+</value>
+</nameValuePair>
+<settingsForGroup name="SpeechType">
+<nameValuePair>
+<name>SPEECHTYPE_ADJECTIVE</name>
+<value>
+<string>形容詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_ADVERB</name>
+<value>
+<string>副詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_AUXILIARY_VERB</name>
+<value>
+<string>助動詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_CONJUGATION</name>
+<value>
+<string>接続詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_NOUN</name>
+<value>
+<string>名詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_PARTICLE</name>
+<value>
+<string>助詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_SYMBOL</name>
+<value>
+<string>記号</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_TRUE_ADJECTIVE</name>
+<value>
+<string>連体詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_UNKNOWNWORD</name>
+<value>
+<string>未知語</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_VERB</name>
+<value>
+<string>動詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_PREFIX</name>
+<value>
+<string>接頭詞</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_FILLER</name>
+<value>
+<string>フィラー</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>SPEECHTYPE_INTERJECTION</name>
+<value>
+<string>感動詞</string>
+</value>
+</nameValuePair>
+</settingsForGroup>
+</configurationParameterSettings>
+<typeSystemDescription>
+<imports>
+<import location="MeCab-SenTypeSystemDescriptor.xml"/>
+</imports>
+</typeSystemDescription>
+<typePriorities/>
+<fsIndexCollection/>
+<capabilities>
+<capability>
+<inputs/>
+<outputs>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.UnknownWord</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Symbol</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Verb</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Noun</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.TrueAdjective</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Particle</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Conjugation</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.AuxiliaryVerb</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Adverb</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Adjective</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Prefix</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Filler</type>
+<type allAnnotatorFeatures="true">net.lateeye.uima.types.speech.Interjection</type>
+</outputs>
+<languagesSupported/>
+</capability>
+</capabilities>
+<operationalProperties>
+<modifiesCas>true</modifiesCas>
+<multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+<outputsNewCASes>false</outputsNewCASes>
+</operationalProperties>
+</analysisEngineMetaData>
+<resourceManagerConfiguration/>
+</analysisEngineDescription>

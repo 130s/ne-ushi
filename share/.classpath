@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/JVM 1.5"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-core.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file://Users/isaosaito/Library/apache/apache-uima//docs/api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="SEN_HOME/lib/sen.jar" sourcepath="/SEN_HOME"/>
+	<classpathentry kind="var" path="COMMONS-LOGGING_HOME/commons-logging-1.1.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/lateeye_appframework"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/uima_appframework"/>
+	<classpathentry kind="var" path="MECAB-JAVA_HOME/MeCab-096.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

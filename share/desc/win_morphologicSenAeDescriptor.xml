@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+<primitive>true</primitive>
+<annotatorImplementationName>jp.ac.keio.dmc.context.anot.MorphologicAnalysisSenAnnotator</annotatorImplementationName>
+<analysisEngineMetaData>
+<name>morphologicSenAeDescriptor</name>
+<description></description>
+<version>1.0</version>
+<vendor></vendor>
+<configurationParameters>
+<configurationParameter>
+<name>sen.home</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>false</mandatory>
+</configurationParameter>
+<configurationParameter>
+<name>PATH_SEN_XML</name>
+<type>String</type>
+<multiValued>false</multiValued>
+<mandatory>false</mandatory>
+</configurationParameter>
+</configurationParameters>
+<configurationParameterSettings>
+<nameValuePair>
+<name>sen.home</name>
+<value>
+<string>C:/pg/sen/sen-1.2.2.1</string>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>PATH_SEN_XML</name>
+<value>
+<string>conf/sen.xml</string>
+</value>
+</nameValuePair>
+</configurationParameterSettings>
+<typeSystemDescription>
+<imports>
+<import location="senTypeSystemDescriptor.xml"/>
+</imports>
+</typeSystemDescription>
+<typePriorities/>
+<fsIndexCollection/>
+<capabilities>
+<capability>
+<inputs/>
+<outputs>
+<type allAnnotatorFeatures="true">jp.ac.keio.dmc.uima.types.speech.UnknownWord</type>
+<type allAnnotatorFeatures="true">jp.ac.keio.dmc.uima.types.speech.Symbol</type>
+<type allAnnotatorFeatures="true">jp.ac.keio.dmc.uima.types.speech.Verb</type>
+<type allAnnotatorFeatures="true">jp.ac.keio.dmc.uima.types.speech.Noun</type>
+</outputs>
+<languagesSupported/>
+</capability>
+</capabilities>
+<operationalProperties>
+<modifiesCas>true</modifiesCas>
+<multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+<outputsNewCASes>false</outputsNewCASes>
+</operationalProperties>
+</analysisEngineMetaData>
+<resourceManagerConfiguration/>
+</analysisEngineDescription>
