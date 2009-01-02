@@ -1,1 +1,4 @@
 = T =
+
+files used for the v0.1 release test
+http://code.google.com/p/ne-ushi/downloads/detail?name=testFiles_neushi_08dec31.tar.gz&can=2&q=#makechanges
