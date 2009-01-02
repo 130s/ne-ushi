@@ -1,4 +1,4 @@
 Mailing lists are managed using googlegroups.com. Subscribing/Unsubscribing to an ML should be done on the principle on googlegroups.com on following web pages.
 
- * [http://groups.google.com/group/ne-ushi_users Users group]
+ * [http://groups.google.com/group/neUshi-users Users group]
  * Developers group(Not yet)
