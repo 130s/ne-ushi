@@ -23,13 +23,15 @@ Install following components before starting to use NeUshi.
  * Apache UIMA SDK: http://incubator.apache.org/uima/
 
 =Preparation for MeCab before using it via NeUshi=
- 1. Install MeCab v0.96 instead of v0.97(latest as of Jan 01, 2009). v0.97 has not been tested since compilation failed for unknown reason, and the similar phenomenon is reported on the internet. 
- 2. Install MeCab Java binding v0.96 instead of v0.97(latest as of Jan 01, 2009).
+1. Install MeCab v0.96 instead of v0.97(latest as of Jan 01, 2009). v0.97 has not been tested since compilation failed for unknown reason, and the similar phenomenon is reported on the internet.
+ 
+2. Install MeCab Java binding v0.96 instead of v0.97(latest as of Jan 01, 2009).
 
 At the current version of MeCab and MeCab Java binding(both are v0.96), that's it. But you may need to change the following parts that are for the future update of either or both of them.
 
- 3. Edit component descriptor as described in following sub sections.
- 3-1. open %HOME_NEUSHI%/desc/morphologicMecabAeDescriptor.xml. 
+3. Edit component descriptor as described in following sub sections.
+ 
+3-1. open %HOME_NEUSHI%/desc/morphologicMecabAeDescriptor.xml. 
  ** If you're using Eclipse with UIMA SDK, open the file with Component Descriptor Editor and open Parameter Settings tab
  ** Else then open following part in the file
 {{{
@@ -49,16 +51,18 @@ At the current version of MeCab and MeCab Java binding(both are v0.96), that's i
  :
 </configurationParameterSettings>
 }}}
- 3-2. Make sure the value of "LIB_NAME" is "MeCab". This value is defined by MeCab Java binding.
- 3-3. Make sure the value of "DELIM_SPEECHTYPE" is ",". This value is delimitter of each element in the result of MeCab.
+3-2. Make sure the value of "LIB_NAME" is "MeCab". This value is defined by MeCab Java binding.
+
+3-3. Make sure the value of "DELIM_SPEECHTYPE" is ",". This value is delimitter of each element in the result of MeCab.
 
 
 =Preparation for Sen before using it via NeUshi=
- 1. Install Sen (recommend latest version, v1.2.2.1 as of Jan, 2009)
+1. Install Sen (recommend latest version, v1.2.2.1 as of Jan, 2009)
 At the current version of Sen(v1.2.2.1), that's it. But you may need to change the following parts that are for the future update of either or both of them.
 
- 2. Edit component descriptor as described in following sub sections.
- 2-1. open %HOME_NEUSHI%/desc/morphologicSenAeDescriptor.xml. 
+2. Edit component descriptor as described in following sub sections.
+
+2-1. open %HOME_NEUSHI%/desc/morphologicSenAeDescriptor.xml. 
  ** If you're using Eclipse with UIMA SDK, open the file with Component Descriptor Editor and open Parameter Settings tab
  ** Else then open following part in the file
 {{{
@@ -84,6 +88,8 @@ At the current version of Sen(v1.2.2.1), that's it. But you may need to change t
  :
 </configurationParameterSettings>
 }}}
- 2-2. Make sure the value of "PATH_SEN_XML" points to the file under installed Sen's directory.
- 2-3. Make sure the value of "sen.home" equals the environment variable "SEN_HOME"
- 2-4. Make sure the value of "DELIM_SPEECHTYPE" is "-". This value is delimitter of each element in the result of Sen.
+2-2. Make sure the value of "PATH_SEN_XML" points to the file under installed Sen's directory.
+
+2-3. Make sure the value of "sen.home" equals the environment variable "SEN_HOME"
+
+2-4. Make sure the value of "DELIM_SPEECHTYPE" is "-". This value is delimitter of each element in the result of Sen.
