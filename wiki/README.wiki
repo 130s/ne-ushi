@@ -1,4 +1,5 @@
 #labels Phase-Requirements
+{{{
 /**
  * Copyright 2009 Lateeye Productions or its licensors, as applicable.
  *
@@ -10,10 +11,9 @@
  * Primary Repository: http://code.google.com/p/ne-ushi/source/browse/
  * Web Sites: http://code.google.com/p/ne-ushi/
  */
+}}}
 
-
-Introduction
-============
+=Introduction=
 This package contains the NeUshi - open source API for Natural Language Processors using Apache UIMA.
 All the code in this distribution is now licensed under the Apache License:
 
@@ -28,28 +28,24 @@ All the code in this distribution is now licensed under the Apache License:
 ** limitations under the License.
 
 
-Environment:
-============
-- Apache UIMA base framework 2.2.1 or later
-- Java Runtime Environment 1.5 or later (Not tested on JRE1.6.x)
+=Environment:=
+ * Apache UIMA base framework 2.2.1 or later
+ * Java Runtime Environment 1.5 or later (Not tested on JRE1.6.x)
 
 
-Other Dependencies and Licenses:
-================================
-- Apache UIMA: http://incubator.apache.org/uima/
+=Other Dependencies and Licenses:=
+ * Apache UIMA: http://incubator.apache.org/uima/
 
 
-History:
-========
+=History:=
 (TBD)
 
 
-Directory Structure (ordered by dependency):
-============================================
+=Directory Structure (ordered by dependency):=
+{{{
 desc	UIMA's component descriptors are stored. 
 src	Source codes.
+}}}
 
-
-Install & Using sample application
-================
+=Install & Using sample application=
 See INSTALL.txt
