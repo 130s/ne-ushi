@@ -13,9 +13,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Wed Dec 31 02:27:37 CST 2008
+ * Updated by JCasGen Fri Jan 02 12:10:42 CST 2009
  * @generated */
-public class Noun_Type extends AbsSpeechType_Type {
+public class Noun_Type extends Morpheme_Type {
   /** @generated */
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */

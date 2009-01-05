@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Dec 30 15:30:00 CST 2008 */
+/* First created by JCasGen Fri Jan 02 12:10:42 CST 2009 */
 package net.lateeye.uima.types.speech;
 
 import org.apache.uima.jcas.JCas;
@@ -13,33 +13,33 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import net.lateeye.uima.types.NamedEntity_Type;
 
-/** Sen ????????????, ??????????????????. ???? 3?????(??, ????, ??????)?????????????.
- * Updated by JCasGen Wed Dec 31 02:27:37 CST 2008
+/** Abstract container for every morpheme.  
+ * Updated by JCasGen Fri Jan 02 12:10:42 CST 2009
  * @generated */
-public class AbsSpeechType_Type extends NamedEntity_Type {
+public class Morpheme_Type extends NamedEntity_Type {
   /** @generated */
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
     new FSGenerator() {
       public FeatureStructure createFS(int addr, CASImpl cas) {
-  			 if (AbsSpeechType_Type.this.useExistingInstance) {
+  			 if (Morpheme_Type.this.useExistingInstance) {
   			   // Return eq fs instance if already created
-  		     FeatureStructure fs = AbsSpeechType_Type.this.jcas.getJfsFromCaddr(addr);
+  		     FeatureStructure fs = Morpheme_Type.this.jcas.getJfsFromCaddr(addr);
   		     if (null == fs) {
-  		       fs = new AbsSpeechType(addr, AbsSpeechType_Type.this);
-  			   AbsSpeechType_Type.this.jcas.putJfsFromCaddr(addr, fs);
+  		       fs = new Morpheme(addr, Morpheme_Type.this);
+  			   Morpheme_Type.this.jcas.putJfsFromCaddr(addr, fs);
   			   return fs;
   		     }
   		     return fs;
-        } else return new AbsSpeechType(addr, AbsSpeechType_Type.this);
+        } else return new Morpheme(addr, Morpheme_Type.this);
   	  }
     };
   /** @generated */
-  public final static int typeIndexID = AbsSpeechType.typeIndexID;
+  public final static int typeIndexID = Morpheme.typeIndexID;
   /** @generated 
      @modifiable */
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("net.lateeye.uima.types.speech.AbsSpeechType");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("net.lateeye.uima.types.speech.Morpheme");
  
   /** @generated */
   final Feature casFeat_speechType;
@@ -48,13 +48,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getSpeechType(int addr) {
         if (featOkTst && casFeat_speechType == null)
-      jcas.throwFeatMissing("speechType", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("speechType", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_speechType);
   }
   /** @generated */    
   public void setSpeechType(int addr, String v) {
         if (featOkTst && casFeat_speechType == null)
-      jcas.throwFeatMissing("speechType", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("speechType", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_speechType, v);}
     
   
@@ -66,13 +66,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getSpeechSubType(int addr) {
         if (featOkTst && casFeat_speechSubType == null)
-      jcas.throwFeatMissing("speechSubType", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("speechSubType", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_speechSubType);
   }
   /** @generated */    
   public void setSpeechSubType(int addr, String v) {
         if (featOkTst && casFeat_speechSubType == null)
-      jcas.throwFeatMissing("speechSubType", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("speechSubType", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_speechSubType, v);}
     
   
@@ -84,13 +84,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getSpeechSubSubType(int addr) {
         if (featOkTst && casFeat_speechSubSubType == null)
-      jcas.throwFeatMissing("speechSubSubType", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("speechSubSubType", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_speechSubSubType);
   }
   /** @generated */    
   public void setSpeechSubSubType(int addr, String v) {
         if (featOkTst && casFeat_speechSubSubType == null)
-      jcas.throwFeatMissing("speechSubSubType", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("speechSubSubType", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_speechSubSubType, v);}
     
   
@@ -102,13 +102,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getOriginalForm(int addr) {
         if (featOkTst && casFeat_originalForm == null)
-      jcas.throwFeatMissing("originalForm", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("originalForm", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_originalForm);
   }
   /** @generated */    
   public void setOriginalForm(int addr, String v) {
         if (featOkTst && casFeat_originalForm == null)
-      jcas.throwFeatMissing("originalForm", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("originalForm", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_originalForm, v);}
     
   
@@ -120,13 +120,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getKana(int addr) {
         if (featOkTst && casFeat_kana == null)
-      jcas.throwFeatMissing("kana", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("kana", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_kana);
   }
   /** @generated */    
   public void setKana(int addr, String v) {
         if (featOkTst && casFeat_kana == null)
-      jcas.throwFeatMissing("kana", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("kana", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_kana, v);}
     
   
@@ -138,13 +138,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getSpeechSubSubSubType(int addr) {
         if (featOkTst && casFeat_speechSubSubSubType == null)
-      jcas.throwFeatMissing("speechSubSubSubType", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("speechSubSubSubType", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_speechSubSubSubType);
   }
   /** @generated */    
   public void setSpeechSubSubSubType(int addr, String v) {
         if (featOkTst && casFeat_speechSubSubSubType == null)
-      jcas.throwFeatMissing("speechSubSubSubType", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("speechSubSubSubType", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_speechSubSubSubType, v);}
     
   
@@ -156,13 +156,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getConjugation_1(int addr) {
         if (featOkTst && casFeat_conjugation_1 == null)
-      jcas.throwFeatMissing("conjugation_1", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("conjugation_1", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_conjugation_1);
   }
   /** @generated */    
   public void setConjugation_1(int addr, String v) {
         if (featOkTst && casFeat_conjugation_1 == null)
-      jcas.throwFeatMissing("conjugation_1", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("conjugation_1", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_conjugation_1, v);}
     
   
@@ -174,13 +174,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getConjugation_2(int addr) {
         if (featOkTst && casFeat_conjugation_2 == null)
-      jcas.throwFeatMissing("conjugation_2", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("conjugation_2", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_conjugation_2);
   }
   /** @generated */    
   public void setConjugation_2(int addr, String v) {
         if (featOkTst && casFeat_conjugation_2 == null)
-      jcas.throwFeatMissing("conjugation_2", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("conjugation_2", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_conjugation_2, v);}
     
   
@@ -192,13 +192,13 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
   /** @generated */ 
   public String getPronunciation(int addr) {
         if (featOkTst && casFeat_pronunciation == null)
-      jcas.throwFeatMissing("pronunciation", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("pronunciation", "net.lateeye.uima.types.speech.Morpheme");
     return ll_cas.ll_getStringValue(addr, casFeatCode_pronunciation);
   }
   /** @generated */    
   public void setPronunciation(int addr, String v) {
         if (featOkTst && casFeat_pronunciation == null)
-      jcas.throwFeatMissing("pronunciation", "net.lateeye.uima.types.speech.AbsSpeechType");
+      jcas.throwFeatMissing("pronunciation", "net.lateeye.uima.types.speech.Morpheme");
     ll_cas.ll_setStringValue(addr, casFeatCode_pronunciation, v);}
     
   
@@ -207,7 +207,7 @@ public class AbsSpeechType_Type extends NamedEntity_Type {
 
   /** initialize variables to correspond with Cas Type and Features
 	* @generated */
-  public AbsSpeechType_Type(JCas jcas, Type casType) {
+  public Morpheme_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 

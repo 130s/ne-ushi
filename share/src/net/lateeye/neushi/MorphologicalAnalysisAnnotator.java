@@ -1,15 +1,39 @@
-package net.lateeye.uima.nlp;
+package net.lateeye.neushi;
+
+/**
+ * Copyright 2009 Lateeye Productions or its licensors, as applicable.
+ * 
+ * You may not use this file except under the terms of the accompanying license.
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License"); you
+ * may not use this file except in compliance with the License. You may
+ * obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ * Project: NeUshi
+ * File: MorphologicalAnalysisAnnotator.java
+ * Purpose: Define common procedure to execute Morphological Analysis modules
+ * Responsible: Isao Isaac Saito <130s@lateeye.net>
+ * Reviewer: (none)
+ * Primary Repository: http://code.google.com/p/ne-ushi/source/browse/
+ * Web Sites: http://code.google.com/p/ne-ushi/
+ */
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
-import net.lateeye.uima.types.speech.AbsSpeechType;
 import net.lateeye.uima.types.speech.Adjective;
 import net.lateeye.uima.types.speech.Adverb;
 import net.lateeye.uima.types.speech.AuxiliaryVerb;
 import net.lateeye.uima.types.speech.Conjugation;
 import net.lateeye.uima.types.speech.Filler;
 import net.lateeye.uima.types.speech.Interjection;
+import net.lateeye.uima.types.speech.Morpheme;
 import net.lateeye.uima.types.speech.Noun;
 import net.lateeye.uima.types.speech.Particle;
 import net.lateeye.uima.types.speech.Prefix;
@@ -146,7 +170,7 @@ public abstract class MorphologicalAnalysisAnnotator extends
 
 		// DO: UIMA Annotate as each morpheme SEN returned
 		for (int i = 0; i < morphs.size(); i++) {
-			AbsSpeechType annot = null;
+			Morpheme annot = null;
 			String speechType = null;
 			String speechSubType = null;
 			String speechSubSubType = null;

@@ -11,9 +11,9 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** ????????/???/????????????.
- * Updated by JCasGen Wed Dec 31 02:27:37 CST 2008
+ * Updated by JCasGen Fri Jan 02 12:10:42 CST 2009
  * @generated */
-public class Prefix_Type extends AbsSpeechType_Type {
+public class Prefix_Type extends Morpheme_Type {
   /** @generated */
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */

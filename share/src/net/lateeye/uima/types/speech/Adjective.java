@@ -10,10 +10,10 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Wed Dec 31 02:27:37 CST 2008
+ * Updated by JCasGen Fri Jan 02 12:10:42 CST 2009
  * XML source: /Users/isaosaito/Documents/workspace_eclipse/AE_morphological_Dev/desc/MeCab-SenTypeSystemDescriptor.xml
  * @generated */
-public class Adjective extends AbsSpeechType {
+public class Adjective extends Morpheme {
   /** @generated
    * @ordered 
    */
