@@ -1,0 +1,17 @@
+/**
+ * Copyright 2009 Lateeye Productions or its licensors, as applicable.
+ *
+ * Project: NeUshi
+ * File: RUNNING.txt
+ * Purpose: Describe the procedure to run NeUshi component.
+ * Responsible: Isao Isaac Saito <130s@lateeye.net>
+ * Reviewer: (none)
+ * Primary Repository: http://code.google.com/p/ne-ushi/source/browse/
+ * Web Sites: http://code.google.com/p/ne-ushi/
+ */
+
+=Using sample application=
+1. make sure Morphological Analysis Module you'll use is already installed(in this case, MeCab or Sen).
+
+2. edit sample.sh so as to fit your envirionment
+
