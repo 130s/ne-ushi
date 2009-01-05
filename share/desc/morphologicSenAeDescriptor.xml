@@ -2,7 +2,7 @@
 <analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
 <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
 <primitive>true</primitive>
-<annotatorImplementationName>net.lateeye.uima.nlp.MorphAnalysisSenAnnotator</annotatorImplementationName>
+<annotatorImplementationName>net.lateeye.neushi.MorphAnalysisSenAnnotator</annotatorImplementationName>
 <analysisEngineMetaData>
 <name>Morphologic analysis using Sen Descriptor</name>
 <description>A description about usage of

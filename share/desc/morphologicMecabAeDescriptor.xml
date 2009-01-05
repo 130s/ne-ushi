@@ -2,7 +2,7 @@
 <analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
 <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
 <primitive>true</primitive>
-<annotatorImplementationName>net.lateeye.uima.nlp.MorphAnalysisMeCabAnnotator</annotatorImplementationName>
+<annotatorImplementationName>net.lateeye.neushi.MorphAnalysisMeCabAnnotator</annotatorImplementationName>
 <analysisEngineMetaData>
 <name>Morphologic analysis using MeCab Descriptor</name>
 <description>A description about usage of
