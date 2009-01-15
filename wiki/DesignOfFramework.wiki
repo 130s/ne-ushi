@@ -13,4 +13,4 @@ http://ne-ushi.googlecode.com/svn/trunk/share/doc/classDiagram_typeSystem.png
 Type system is UIMA's concept and each type system represents an smallest element of structured information. In NeUshi, morphemes correspond to type systems.
 Currently(as of Jan 01 2009), the design of type systems in NeUshi is based on Japanese language which has (assumedly) more numbers and complicated structure of morphemes than English. That means the current design covers not only Japanese but also English, so in most cases of when a developer creates another I/F, she/he doesn't need to add/edit existing type systems.
 
-If a developer need to add new morphemes, follow the Apache UIMA's instruction of how to use type system descriptor and edit type systems.
+If a developer need to add new morphemes, follow the Apache UIMA's instruction of how to use *type system descriptor* and edit type systems.
