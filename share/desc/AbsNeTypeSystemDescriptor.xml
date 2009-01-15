@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<name>AbsNeTypeSystemDescriptor</name>
+<description></description>
+<version>1.0</version>
+<vendor>Lateeye Productions.</vendor>
+<types>
+<typeDescription>
+<name>net.lateeye.uima.types.NamedEntity</name>
+<description></description>
+<supertypeName>uima.tcas.Annotation</supertypeName>
+<features>
+<featureDescription>
+<name>lex</name>
+<description>Normalized word</description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+</features>
+</typeDescription>
+</types>
+</typeSystemDescription>

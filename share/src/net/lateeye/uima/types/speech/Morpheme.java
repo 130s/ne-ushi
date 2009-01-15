@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import net.lateeye.uima.types.NamedEntity;
 
 
-/** Abstract container for every morpheme.  
- * Updated by JCasGen Fri Jan 02 12:10:42 CST 2009
+/** Abstract container for every morpheme.
+ * Updated by JCasGen Thu Jan 15 14:02:53 CST 2009
  * XML source: /Users/isaosaito/Documents/workspace_eclipse/AE_morphological_Dev/desc/MeCab-SenTypeSystemDescriptor.xml
  * @generated */
 public class Morpheme extends NamedEntity {
