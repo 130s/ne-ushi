@@ -5,7 +5,7 @@
 <version>0.2</version>
 <vendor>Lateeye productions.</vendor>
 <imports>
-<import location="../../uima_appframework/componentdesc/AbsNeTypeSystemDescriptor.xml"/>
+<import location="AbsNeTypeSystemDescriptor.xml"/>
 </imports>
 <types>
 <typeDescription>
@@ -27,7 +27,7 @@
 </typeDescription>
 <typeDescription>
 <name>net.lateeye.uima.types.speech.Morpheme</name>
-<description>Abstract container for every morpheme.  </description>
+<description>Abstract container for every morpheme.</description>
 <supertypeName>net.lateeye.uima.types.NamedEntity</supertypeName>
 <features>
 <featureDescription>

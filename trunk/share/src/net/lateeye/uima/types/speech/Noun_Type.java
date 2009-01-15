@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Fri Jan 02 12:10:42 CST 2009
+ * Updated by JCasGen Thu Jan 15 14:02:53 CST 2009
  * @generated */
 public class Noun_Type extends Morpheme_Type {
   /** @generated */

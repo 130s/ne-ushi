@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** ????????/???/????????????.
- * Updated by JCasGen Fri Jan 02 12:10:42 CST 2009
+ * Updated by JCasGen Thu Jan 15 14:02:53 CST 2009
  * XML source: /Users/isaosaito/Documents/workspace_eclipse/AE_morphological_Dev/desc/MeCab-SenTypeSystemDescriptor.xml
  * @generated */
 public class Prefix extends Morpheme {
