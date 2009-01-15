@@ -1,5 +1,6 @@
 =System diagram=
 http://ne-ushi.googlecode.com/svn/trunk/share/doc/classDiagram_system%20overall.png
-----
+ * When you create new different morphological analysis module, create a class that extends MorphologicalAnalysisAnnotator
 
 =Class diagram of entities=
+http://ne-ushi.googlecode.com/svn/trunk/share/doc/classDiagram_typeSystem.png
