@@ -46,5 +46,6 @@ desc	UIMA's component descriptors are stored.
 src	Source codes.
 }}}
 
+
 =Install & Using sample application=
-See INSTALL.txt
+See INSTALL.txt (in doc folder)
